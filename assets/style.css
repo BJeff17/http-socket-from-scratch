@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("/assets/illustration-anime-city-v3.jpg");
+  background-size: cover;      /* l’image couvre tout l’écran */
+  background-position: center; /* centrée */
+  background-repeat: no-repeat;
+}
+
+
+h1 {
+    color: deeppink;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+
+.nav-links a:hover {
+    color: lightpink;
+}
+
+.nav-links a:active {
+    color: hotpink;
+}   
+
+.nav-links a:visited {
+    color: pink;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-links {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
